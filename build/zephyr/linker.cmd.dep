@@ -1,9 +1,9 @@
 linker.cmd: \
  /home/shahab/zephyrproject/zephyr/soc/xtensa/espressif_esp32/esp32/linker.ld \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/autoconf.h \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/autoconf.h \
  /home/shahab/zephyrproject/zephyr/soc/xtensa/espressif_esp32/esp32/default.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/devicetree.h \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/devicetree_generated.h \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/devicetree_generated.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/sys/util.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/sys/util_macro.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/sys/util_internal.h \
@@ -29,12 +29,12 @@ linker.cmd: \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/section_tags.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/linker-defs.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/toolchain/common.h \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/offsets.h \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/offsets.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/linker-tool.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/linker-tool-gcc.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/sys/mem_manage.h \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/rel-sections.ld \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/snippets-rodata.ld \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/snippets-rodata.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-cpp.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-kernel-devices.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/iterable_sections.h \
@@ -44,13 +44,13 @@ linker.cmd: \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-bt.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-debug.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/snippets-sections.ld \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/snippets-sections.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/intlist.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/cplusplus-rom.ld \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/snippets-data-sections.ld \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/snippets-data-sections.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-ram.ld \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/snippets-ram-sections.ld \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/snippets-ram-sections.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/cplusplus-ram.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-logging.ld \
- /home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/include/generated/snippets-rwdata.ld \
+ /home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/include/generated/snippets-rwdata.ld \
  /home/shahab/zephyrproject/zephyr/include/zephyr/linker/debug-sections.ld

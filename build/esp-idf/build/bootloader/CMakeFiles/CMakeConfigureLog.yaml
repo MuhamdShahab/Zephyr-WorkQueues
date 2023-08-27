@@ -53,7 +53,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/3.27.4/CompilerIdC/CMakeCCompilerId.o
+        /home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/3.27.4/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -98,7 +98,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.o
+        /home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
@@ -124,8 +124,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-Z65Kjy"
-      binary: "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-Z65Kjy"
+      source: "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-VgVccJ"
+      binary: "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-VgVccJ"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address"
       CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -nodefaultlibs"
@@ -134,10 +134,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-Z65Kjy'
+        Change Dir: '/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-VgVccJ'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_acbd3
-        [1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_714b1
+        [1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc
         Target: xtensa-espressif_esp32_zephyr-elf
@@ -145,8 +145,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.2.0 (Zephyr SDK 0.16.1) 
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_acbd3.dir/'
-         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1 -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_acbd3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccR6QitM.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_714b1.dir/'
+         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1 -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_714b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccHnEUs3.s
         GNU C17 (Zephyr SDK 0.16.1) version 12.2.0 (xtensa-espressif_esp32_zephyr-elf)
         	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -167,13 +167,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f7f95e25493abd15eb0f48a26f46edd7
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_acbd3.dir/'
-         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj /tmp/ccR6QitM.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_714b1.dir/'
+         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj /tmp/ccHnEUs3.s
         GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.16.1) 2.38
         COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
         LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj -o cmTC_acbd3   && :
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj -o cmTC_714b1   && :
         Using built-in specs.
         COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc
         COLLECT_LTO_WRAPPER=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper
@@ -184,10 +184,10 @@ events:
         gcc version 12.2.0 (Zephyr SDK 0.16.1) 
         COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
         LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_acbd3' '-dumpdir' 'cmTC_acbd3.'
-         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2aiPaB.res -o cmTC_acbd3 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_714b1' '-dumpdir' 'cmTC_714b1.'
+         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTZxaEE.res -o cmTC_714b1 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj
         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_acbd3' '-dumpdir' 'cmTC_acbd3.'
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_714b1' '-dumpdir' 'cmTC_714b1.'
         
       exitCode: 0
   -
@@ -223,10 +223,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(xtensa-espressif_esp32_zephyr-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-Z65Kjy']
+        ignore line: [Change Dir: '/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-VgVccJ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_acbd3]
-        ignore line: [[1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_714b1]
+        ignore line: [[1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc]
         ignore line: [Target: xtensa-espressif_esp32_zephyr-elf]
@@ -234,8 +234,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.0 (Zephyr SDK 0.16.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_acbd3.dir/']
-        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1 -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_acbd3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccR6QitM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_714b1.dir/']
+        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1 -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_714b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccHnEUs3.s]
         ignore line: [GNU C17 (Zephyr SDK 0.16.1) version 12.2.0 (xtensa-espressif_esp32_zephyr-elf)]
         ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -256,13 +256,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f7f95e25493abd15eb0f48a26f46edd7]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_acbd3.dir/']
-        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj /tmp/ccR6QitM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_714b1.dir/']
+        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj /tmp/ccHnEUs3.s]
         ignore line: [GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.16.1) 2.38]
         ignore line: [COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj -o cmTC_acbd3   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj -o cmTC_714b1   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper]
@@ -273,19 +273,19 @@ events:
         ignore line: [gcc version 12.2.0 (Zephyr SDK 0.16.1) ]
         ignore line: [COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_acbd3' '-dumpdir' 'cmTC_acbd3.']
-        link line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2aiPaB.res -o cmTC_acbd3 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_714b1' '-dumpdir' 'cmTC_714b1.']
+        link line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTZxaEE.res -o cmTC_714b1 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj]
           arg [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2aiPaB.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccTZxaEE.res] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_acbd3] ==> ignore
+          arg [cmTC_714b1] ==> ignore
           arg [-L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0] ==> dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0]
           arg [-L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc]
           arg [-L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib]
-          arg [CMakeFiles/cmTC_acbd3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_714b1.dir/CMakeCCompilerABI.c.obj] ==> ignore
         collapse library dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0] ==> [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0]
         collapse library dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/lib/gcc]
         collapse library dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/lib]
@@ -305,8 +305,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-oB5PSK"
-      binary: "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-oB5PSK"
+      source: "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-SiTTQe"
+      binary: "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-SiTTQe"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address"
       CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -nodefaultlibs"
@@ -315,10 +315,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-oB5PSK'
+        Change Dir: '/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-SiTTQe'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_58cda
-        [1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d9f56
+        [1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++
         Target: xtensa-espressif_esp32_zephyr-elf
@@ -326,8 +326,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.2.0 (Zephyr SDK 0.16.1) 
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_58cda.dir/'
-         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1plus -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_58cda.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccgaICYt.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d9f56.dir/'
+         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1plus -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d9f56.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccaq0Vwg.s
         GNU C++17 (Zephyr SDK 0.16.1) version 12.2.0 (xtensa-espressif_esp32_zephyr-elf)
         	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -354,13 +354,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: aec7285695ec8ba98ffd929cd84c82ed
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_58cda.dir/'
-         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccgaICYt.s
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d9f56.dir/'
+         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccaq0Vwg.s
         GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.16.1) 2.38
         COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
         LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_58cda   && :
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d9f56   && :
         Using built-in specs.
         COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++
         COLLECT_LTO_WRAPPER=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper
@@ -371,10 +371,10 @@ events:
         gcc version 12.2.0 (Zephyr SDK 0.16.1) 
         COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
         LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_58cda' '-dumpdir' 'cmTC_58cda.'
-         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHnXwBY.res -o cmTC_58cda -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_d9f56' '-dumpdir' 'cmTC_d9f56.'
+         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPBjMgI.res -o cmTC_d9f56 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj
         /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
-        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_58cda' '-dumpdir' 'cmTC_58cda.'
+        COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_d9f56' '-dumpdir' 'cmTC_d9f56.'
         
       exitCode: 0
   -
@@ -416,10 +416,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(xtensa-espressif_esp32_zephyr-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-oB5PSK']
+        ignore line: [Change Dir: '/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-SiTTQe']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_58cda]
-        ignore line: [[1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_d9f56]
+        ignore line: [[1/2] /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++]
         ignore line: [Target: xtensa-espressif_esp32_zephyr-elf]
@@ -427,8 +427,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.0 (Zephyr SDK 0.16.1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_58cda.dir/']
-        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1plus -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_58cda.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccgaICYt.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d9f56.dir/']
+        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/cc1plus -quiet -v -iprefix /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/ /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d9f56.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccaq0Vwg.s]
         ignore line: [GNU C++17 (Zephyr SDK 0.16.1) version 12.2.0 (xtensa-espressif_esp32_zephyr-elf)]
         ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -455,13 +455,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: aec7285695ec8ba98ffd929cd84c82ed]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_58cda.dir/']
-        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccgaICYt.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d9f56.dir/']
+        ignore line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccaq0Vwg.s]
         ignore line: [GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.16.1) 2.38]
         ignore line: [COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_58cda   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ -mlongcalls -Wno-frame-address -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d9f56   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper]
@@ -472,19 +472,19 @@ events:
         ignore line: [gcc version 12.2.0 (Zephyr SDK 0.16.1) ]
         ignore line: [COMPILER_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
         ignore line: [LIBRARY_PATH=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_58cda' '-dumpdir' 'cmTC_58cda.']
-        link line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHnXwBY.res -o cmTC_58cda -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_d9f56' '-dumpdir' 'cmTC_d9f56.']
+        link line: [ /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2 -plugin /home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so -plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPBjMgI.res -o cmTC_d9f56 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0 -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj]
           arg [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccHnXwBY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccPBjMgI.res] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_58cda] ==> ignore
+          arg [cmTC_d9f56] ==> ignore
           arg [-L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0] ==> dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0]
           arg [-L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc]
           arg [-L/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib]
-          arg [CMakeFiles/cmTC_58cda.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_d9f56.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
         collapse library dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0] ==> [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0]
         collapse library dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/lib/gcc]
         collapse library dir [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.2.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> [/home/shahab/zephyr-sdk-0.16.1/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/lib]

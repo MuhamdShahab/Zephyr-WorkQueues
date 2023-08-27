@@ -43,8 +43,8 @@
 /home/shahab/zephyrproject/modules/lib/gui/lvgl/zephyr/Kconfig.shell
 /home/shahab/zephyrproject/modules/lib/picolibc/zephyr/Kconfig
 /home/shahab/zephyrproject/modules/lib/zscilib/Kconfig.zscilib
-/home/shahab/zephyrproject/tutorials/tut_1/build/Kconfig/Kconfig.dts
-/home/shahab/zephyrproject/tutorials/tut_1/build/Kconfig/Kconfig.modules
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/Kconfig/Kconfig.dts
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/Kconfig/Kconfig.modules
 /home/shahab/zephyrproject/zephyr/Kconfig
 /home/shahab/zephyrproject/zephyr/Kconfig.zephyr
 /home/shahab/zephyrproject/zephyr/arch/Kconfig

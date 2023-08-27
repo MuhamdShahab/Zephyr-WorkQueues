@@ -1,13 +1,13 @@
 # Target labels
  EspPartitionTable
 # Source files and their labels
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable-complete.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
-/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable-complete.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
+/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule

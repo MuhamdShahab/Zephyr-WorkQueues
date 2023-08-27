@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader-complete.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader-complete.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-build.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-build.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-configure.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-configure.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-download.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-download.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-install.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-install.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-mkdir.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-patch.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-patch.rule"
 		},
 		{
-			"file" : "/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-update.rule"
+			"file" : "/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-update.rule"
 		}
 	],
 	"target" : 

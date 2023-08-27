@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/cmake_install.cmake")
+  include("/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/esp32/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shahab/zephyrproject/tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/common/cmake_install.cmake")
+  include("/home/shahab/zephyrproject/our_tutorials/tut_1/build/zephyr/soc/xtensa/espressif_esp32/common/cmake_install.cmake")
 endif()
 

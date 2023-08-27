@@ -30,8 +30,8 @@ config:
 args:
   esp32:
     - --esp-idf-path=/home/shahab/zephyrproject/modules/hal/espressif
-    - --esp-flash-bootloader=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
-    - --esp-flash-partition_table=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
+    - --esp-flash-bootloader=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
+    - --esp-flash-partition_table=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
     - --esp-partition-table-address=0x8000
     - --esp-boot-address=0x1000
     - --esp-app-address=0x10000
@@ -54,36 +54,36 @@ args:
     - thb main
   esp32:
     - --esp-idf-path=/home/shahab/zephyrproject/modules/hal/espressif
-    - --esp-flash-bootloader=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
-    - --esp-flash-partition_table=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
+    - --esp-flash-bootloader=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
+    - --esp-flash-partition_table=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
     - --esp-partition-table-address=0x8000
     - --esp-boot-address=0x1000
     - --esp-app-address=0x10000
   esp32:
     - --esp-idf-path=/home/shahab/zephyrproject/modules/hal/espressif
-    - --esp-flash-bootloader=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
-    - --esp-flash-partition_table=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
+    - --esp-flash-bootloader=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
+    - --esp-flash-partition_table=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
     - --esp-partition-table-address=0x8000
     - --esp-boot-address=0x1000
     - --esp-app-address=0x10000
   esp32:
     - --esp-idf-path=/home/shahab/zephyrproject/modules/hal/espressif
-    - --esp-flash-bootloader=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
-    - --esp-flash-partition_table=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
+    - --esp-flash-bootloader=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
+    - --esp-flash-partition_table=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
     - --esp-partition-table-address=0x8000
     - --esp-boot-address=0x1000
     - --esp-app-address=0x10000
   esp32:
     - --esp-idf-path=/home/shahab/zephyrproject/modules/hal/espressif
-    - --esp-flash-bootloader=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
-    - --esp-flash-partition_table=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
+    - --esp-flash-bootloader=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
+    - --esp-flash-partition_table=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
     - --esp-partition-table-address=0x8000
     - --esp-boot-address=0x1000
     - --esp-app-address=0x10000
   esp32:
     - --esp-idf-path=/home/shahab/zephyrproject/modules/hal/espressif
-    - --esp-flash-bootloader=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
-    - --esp-flash-partition_table=/home/shahab/zephyrproject/tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
+    - --esp-flash-bootloader=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/bootloader/bootloader.bin
+    - --esp-flash-partition_table=/home/shahab/zephyrproject/our_tutorials/tut_1/build/esp-idf/build/partitions_singleapp.bin
     - --esp-partition-table-address=0x8000
     - --esp-boot-address=0x1000
     - --esp-app-address=0x10000

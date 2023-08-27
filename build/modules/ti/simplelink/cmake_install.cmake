@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/shahab/zephyrproject/tutorials/tut_1/build/modules/ti/simplelink/source/ti/devices/cmake_install.cmake")
+  include("/home/shahab/zephyrproject/our_tutorials/tut_1/build/modules/ti/simplelink/source/ti/devices/cmake_install.cmake")
 endif()
 
