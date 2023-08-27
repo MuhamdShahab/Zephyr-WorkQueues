@@ -62,7 +62,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /home/shahab/zephyrproject/tutorials/tut_1/build/CMakeFiles/3.27.3/CompilerIdC/CMakeCCompilerId.o
+        /home/shahab/zephyrproject/tutorials/tut_1/build/CMakeFiles/3.27.4/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -113,12 +113,12 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /home/shahab/zephyrproject/tutorials/tut_1/build/CMakeFiles/3.27.3/CompilerIdCXX/CMakeCXXCompilerId.o
+        /home/shahab/zephyrproject/tutorials/tut_1/build/CMakeFiles/3.27.4/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1107 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
       - "/usr/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "/home/shahab/zephyrproject/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
       - "/home/shahab/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:124 (include)"
